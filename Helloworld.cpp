@@ -3,7 +3,10 @@
 #include <string>
 
 using namespace std;
+void hello(int a){
 
+    return a;
+}
 int main()
 {
     vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
